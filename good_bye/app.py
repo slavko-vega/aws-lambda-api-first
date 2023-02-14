@@ -4,7 +4,7 @@ from mangum import Mangum
 app = FastAPI()
 
 @app.get("/good-bye")
-def read_root():
+def good_bye():
     # return {"Hello": "World"}
     return "Good Bye"
 
